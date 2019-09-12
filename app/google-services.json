@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810527455243",
+    "firebase_url": "https://diplomskiprojekt-98876.firebaseio.com",
+    "project_id": "diplomskiprojekt-98876",
+    "storage_bucket": "diplomskiprojekt-98876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810527455243:android:3b9aa211eba1dbce",
+        "android_client_info": {
+          "package_name": "davidtomic.projekti.diplomskiprojekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810527455243-ugjoc28m0804urmupqbu5i2dtskvehgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "davidtomic.projekti.diplomskiprojekt",
+            "certificate_hash": "72eb4087459ad566cc22adf610bd096f21c573b3"
+          }
+        },
+        {
+          "client_id": "810527455243-trr87sd341pk5jihm2b5tvoaj9mtfvsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe3u_-CgVHbm-84afMWgc7agYskvFoA0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810527455243-trr87sd341pk5jihm2b5tvoaj9mtfvsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

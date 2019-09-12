@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_view"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="151dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/image_view"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/category_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/text_container"
+                android:layout_alignTop="@+id/text_container"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="132dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/text_container">
+
+            <TextView
+                android:id="@+id/total_tv"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white" />
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/holo_purple" />
+
+</android.support.v7.widget.CardView>
